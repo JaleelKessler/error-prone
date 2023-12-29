@@ -1,5 +1,5 @@
 
-The use of `@Test(expected = FooException.class)` is strongly discouraged, since
+The#use of `@Test(expected = FooException.class)` is strongly discouraged, since
 the test passes if *any* statement throws an exception of the expected type.
 
 For example, if `add(0, "a")` throws an `UnsupportedOperationException` below,
@@ -30,3 +30,4 @@ public void testRemoveFails() {
   });
 }
 ```
+ 
